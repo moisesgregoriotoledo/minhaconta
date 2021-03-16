@@ -15,22 +15,22 @@ namespace minhaconta1
             {
                 switch (opcaoUsuario)
                 {
-                    case " 1 ":
+                    case "1":
                         ListarContas();
                         break;
-                    case " 2 ":
+                    case "2":
                         InserirConta();
                         break;
-                    case " 3 ":
+                    case "3":
                         Transferir();
                         break;
-                    case " 4 ":
+                    case "4":
                         Sacar();
                         break;
-                    case " 5 ":
+                    case "5":
                         Depositar();
                         break;
-                    case " C ":
+                    case "C":
                         Console.Clear();
                         break;
 

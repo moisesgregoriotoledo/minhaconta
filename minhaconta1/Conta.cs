@@ -26,7 +26,7 @@ namespace minhaconta1
             // Validação de saldo suficiente
             if (this.Saldo - valorSaque < (this.Credito * -1))
             {
-                Console.WriteLine(" Saldo insuficiente! ");
+                Console.WriteLine("Saldo insuficiente!");
                 return false;
             }
             this.Saldo -= valorSaque;
